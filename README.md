@@ -5,7 +5,6 @@
 <img src=assets/synthetic_vs_real_detector.jpg />
 </p>
 
-Official repository of 
 [**When Synthetic Traces Hide Real Content: Analysis of Stable Diffusion Image Laundering**](https://arxiv.org/pdf/2407.10736)<br/>
 Sara Mandelli, Paolo Bestagini, Stefano Tubaro
 
