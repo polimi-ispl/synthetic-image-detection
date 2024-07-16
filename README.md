@@ -2,7 +2,7 @@
 [arXiv](https://arxiv.org/pdf/2407.10736) 
 
 <p align="center">
-<img src=assets/synthetic_vs_real_detector.png />
+<img src=assets/synthetic_vs_real_detector.jpg />
 </p>
 
 Official repository of 
