@@ -1,4 +1,4 @@
-# Synthetic Image Detection (and Laundered Image Detection)
+# Synthetic (and Laundered) Image Detection
 [arXiv](https://arxiv.org/pdf/2407.10736) 
 
 <p align="center">
