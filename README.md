@@ -1,14 +1,17 @@
 # Synthetic (and Laundered) Image Detection
-[arXiv](https://arxiv.org/pdf/2407.10736) 
-
-<p align="center">
-<img src="assets/synthetic_vs_real_detector.jpg"  width="700"/>
-</p>
 
 [**When Synthetic Traces Hide Real Content: Analysis of Stable Diffusion Image Laundering**](https://arxiv.org/pdf/2407.10736)
 
 Sara Mandelli, Paolo Bestagini, Stefano Tubaro<br/>
 [Image and Sound Processing Lab - Politecnico di Milano](http://ispl.deib.polimi.it/)
+
+
+_This repository contains two forensic detectors developed to distinguish real images from synthetic ones and fully synthetic from laundered images.
+The complete description of the methodology is available [here](https://arxiv.org/pdf/2203.02246.pdf).
+The detector is based on patch extraction in random locations from the image under analysis. Patches' scores are then aggregated to produce the final image score. The network architecture is the EfficientNet-B4._
+<p align="center">
+<img src="assets/synthetic_vs_real_detector.jpg"  width="700"/>
+</p>
 
 ## Prerequisites
 Create and activate the conda environment
@@ -88,7 +91,7 @@ python test_fullysynth_vs_laundered_singleimg.py --img_path $PATH_TO_TEST_IMAGE 
 ```
 
 ## Performance
-
+We provide a [notebook](...) with results achieved on [AI Forensics Open Research Challenge Evaluations (AI FORCE): Challenge 1, AI-Generated Image Detection](https://semanticforensics.com/ai-force/challenge-1) released by DARPA in May 2024. 
 
 Bibtex:
 ```bibtex
