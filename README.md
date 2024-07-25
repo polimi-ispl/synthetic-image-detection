@@ -39,6 +39,8 @@ If the score is lower than 0, the image is likely real._
 1. `--img_path` specifies the path to the test image
 2. `--select_face_test` enables to test only the face area. If not provided, the entire image is tested.
 3. `--M` specifies the amount of image patches to aggregate for computing the final score. Suggested values are $M \in [200, 600]$.
+   - _Low values of $M$ (e.g., $M = 200$) correspond to less patch scores that are averaged to compute the final image score. This can lead to higher detection AUC but could need some calibration to well separate the scores at threshold = 0._
+   - _Larger values of $M$ (e.g., $M = 600$) lead to a more robust detector that needs less calibration to well separate the scores at threshold = 0, but can result in slightly lower detection AUC. _
 
 #### Example of test
 ```bash
