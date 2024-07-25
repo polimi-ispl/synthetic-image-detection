@@ -24,6 +24,7 @@ dependencies:
   - xz=5.4.6=h5eee18b_1
   - zlib=1.2.13=h5eee18b_1
   - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu117
       - absl-py==2.1.0
       - albucore==0.0.12
       - albumentations==1.4.11
@@ -120,7 +121,6 @@ dependencies:
       - pydantic==2.8.2
       - pydantic-core==2.20.1
       - pygments==2.18.0
-      - pyllr==0.0.2
       - pyparsing==3.1.2
       - python-dateutil==2.9.0.post0
       - python-json-logger==2.0.7
