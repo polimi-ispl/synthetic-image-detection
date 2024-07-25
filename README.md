@@ -34,16 +34,17 @@ _Obtain the synthetic vs real score for a single image.
 If the score is greater than 0, the image is likely synthetic. 
 If the score is lower than 0, the image is likely real._
 
-You can decide whether to test only the face area or the entire image. 
+#### Input arguments
 
-To test the **entire image**:
+1. `--img_path` specifies the path to the test image
+2. `--select_face_test` enables to test only the face area. If not provided, the entire image is tested.
+3. `--M` specifies the amount of patches to aggregate for computing the final score. Suggested values are $M \in [200, 600]$.
+
+#### Example of test
 ```bash
-python test_real_vs_fake_singleimg.py --img_path $PATH_TO_TEST_IMAGE
+python test_real_vs_synthetic_singleimg.py --img_path $PATH_TO_TEST_IMAGE --M 600
 ```
-To test only the **face area**:
-```bash
-python test_real_vs_fake_singleimg.py --select_face_test --img_path $PATH_TO_TEST_IMAGE
-```
+
 ## Laundered image detector
 
 _We define an image to be synthetic if it is the result of a synthetic generation model applied to an input signal. If the input signal is a random noise or it is an image hidden in noise, we define the generated image to be **fully synthetic**. If the input signal is a real image passed through Stable Diffusion (SD) encoding and decoding with strength = 0, we define the image to be **laundered**. For simplicity, we do not explore the intermediate scenario of image-to-image translation with strength > 0. See [arXiv](https://arxiv.org/pdf/2407.10736) for more information._
@@ -63,13 +64,13 @@ If the score is lower than 0, the image is likely fully-synthetic._
 
 **Watch out**: test only images detected as being synthetic by the [synthetic image detector](https://github.com/polimi-ispl/synthetic-image-detection/edit/main/README.md#synthetic-image-detector)
 
-To test the **entire image**:
+1. `--img_path` specifies the path to the test image
+2. `--select_face_test` enables to test only the face area. If not provided, the entire image is tested.
+3. `--M` specifies the amount of patches to aggregate for computing the final score. Suggested values are $M \in [200, 600]$.
+
+#### Example of test
 ```bash
-python test_fullysynth_vs_laundered_singleimg.py --img_path $PATH_TO_TEST_IMAGE
-```
-To test only the **face area**:
-```bash
-python test_fullysynth_vs_laundered_singleimg.py --select_face_test --img_path $PATH_TO_TEST_IMAGE
+python test_fullysynth_vs_laundered_singleimg.py --img_path $PATH_TO_TEST_IMAGE --M 600
 ```
 
 Bibtex:
