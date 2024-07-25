@@ -22,7 +22,7 @@ _We define an image to be **real** if its pixel content generally comes from a p
 
 ### Model's weights
 
-Download the model's weights** from [this link](...) and unzip the file under the main folder
+Download the model's weights from [this link](...) and unzip the file under the main folder
 ```bash
 wget ...
 unzip synth_vs_real_weigths.zip
@@ -51,7 +51,7 @@ _We define an image to be synthetic if it is the result of a synthetic generatio
 
 ### Model's weights
 
-Download the model's weights** from [this link](...) and unzip the file under the main folder
+Download the model's weights from [this link](...) and unzip the file under the main folder
 ```bash
 wget ...
 unzip laundered_vs_fullysynth_weigths.zip
@@ -62,7 +62,7 @@ _Obtain the laundered vs fully-synthetic score for a single image.
 If the score is greater than 0, the image is likely laundered. 
 If the score is lower than 0, the image is likely fully-synthetic._
 
-**Watch out**: test only images detected as being synthetic by the [synthetic image detector](https://github.com/polimi-ispl/synthetic-image-detection/edit/main/README.md#synthetic-image-detector)
+**Watch out**: test only images detected as being synthetic by the [synthetic image detector](#synthetic-image-detector)
 
 1. `--img_path` specifies the path to the test image
 2. `--select_face_test` enables to test only the face area. If not provided, the entire image is tested.
