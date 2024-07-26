@@ -29,7 +29,7 @@ _We define an image to be **real** if its pixel content generally comes from a p
 
 ### Model's weights
 
-Download the model's weights from [this link](https://www.dropbox.com/scl/fi/na1nff3ehp4kz98n1vtdj/synth_vs_real.pth?rlkey=3k4336bs5uqasr75jwz3666di&dl=0):
+Download the model's weights from [this link](https://www.dropbox.com/scl/fi/na1nff3ehp4kz98n1vtdj/synth_vs_real.pth?rlkey=3k4336bs5uqasr75jwz3666di&dl=0) and save them into the main project folder:
 ```bash
 wget -O synth_vs_real.pth "https://www.dropbox.com/scl/fi/na1nff3ehp4kz98n1vtdj/synth_vs_real.pth?rlkey=3k4336bs5uqasr75jwz3666di&dl=1"
 ```
