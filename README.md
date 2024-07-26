@@ -1,4 +1,4 @@
-# Synthetic (and Laundered) Image Detection
+# Synthetic (and SD Laundered) Image Detection
 
 [**When Synthetic Traces Hide Real Content: Analysis of Stable Diffusion Image Laundering**](https://arxiv.org/pdf/2407.10736)
 
@@ -6,7 +6,7 @@ Sara Mandelli, Paolo Bestagini, Stefano Tubaro<br/>
 [Image and Sound Processing Lab - Politecnico di Milano](http://ispl.deib.polimi.it/)
 
 
-_This repository contains two forensic detectors developed to distinguish real images from synthetic ones and fully synthetic from laundered images.
+_This repository contains two forensic detectors developed to distinguish real images from synthetic ones and fully synthetic from Stable Diffusion (SD) laundered images.
 The complete description of the methodology is available [here](https://arxiv.org/pdf/2203.02246.pdf).
 The detector is based on patch extraction in random locations from the image under analysis. Patches' scores are then aggregated to produce the final image score. The network architecture is the EfficientNet-B4._
 <p align="center">
