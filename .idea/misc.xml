@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="Black">
-    <option name="sdkName" value="Remote Python 3.11.9 (sftp://smandelli@10.79.0.76:22/nas/home/smandelli/miniconda3/envs/synth_img_det/bin/python)" />
-  </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.11.9 (sftp://smandelli@10.79.1.6:22/nas/home/smandelli/miniconda3/envs/synth_img_det/bin/python)" project-jdk-type="Python SDK" />
-</project>
