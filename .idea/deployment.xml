@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="smandelli@10.79.0.76:22" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false" autoUploadExternalChanges="true">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="smandelli@10.79.0.76:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/nas/home/smandelli/Pycharm_projects/github/synthetic-image-detection" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="smandelli@10.79.1.6:22 (1) (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/nas/home/smandelli/Pycharm_projects/github/synthetic-image-detection" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
