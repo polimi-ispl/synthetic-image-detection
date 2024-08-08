@@ -92,7 +92,8 @@ python test_fullysynth_vs_laundered_singleimg.py --img_path $PATH_TO_TEST_IMAGE 
 ## Performance
 We provide a [notebook](...) with results achieved on [AI Forensics Open Research Challenge Evaluations (AI FORCE): Challenge 1, AI-Generated Image Detection](https://semanticforensics.com/ai-force/challenge-1) released by DARPA in May 2024. 
 
-Bibtex:
+## How to cite
+
 ```bibtex
 @article{Mandelli2024,
   title={When Synthetic Traces Hide Real Content: Analysis of Stable Diffusion Image Laundering},
@@ -100,3 +101,36 @@ Bibtex:
   journal={arXiv preprint arXiv:2407.10736},
   year={2024}
 }
+```
+
+The proposed method is based on considerations presented in our previous papers:
+
+1. _S. Mandelli, N. Bonettini, P. Bestagini, S. Tubaro, [Detecting Gan-Generated Images by Orthogonal Training of Multiple CNNs](https://arxiv.org/pdf/2203.02246.pdf), IEEE International Conference on Image Processing (ICIP), 2022, doi: 10.1109/ICIP46576.2022.9897310._
+
+```bibtex
+@INPROCEEDINGS{mandelli2022detecting,
+  author={Mandelli, Sara and Bonettini, Nicolò and Bestagini, Paolo and Tubaro, Stefano},
+  booktitle={2022 IEEE International Conference on Image Processing (ICIP)}, 
+  title={Detecting Gan-Generated Images by Orthogonal Training of Multiple CNNs}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={3091-3095},
+  doi={10.1109/ICIP46576.2022.9897310}}
+```
+
+2. _S. Mandelli, N. Bonettini, P. Bestagini, S. Tubaro, [Training CNNs in Presence of JPEG Compression: Multimedia Forensics vs Computer Vision](https://arxiv.org/pdf/2009.12088.pdf), IEEE International Workshop on Information Forensics and Security (WIFS), 2020, doi: 10.1109/WIFS49906.2020.9360903._
+
+```bibtex
+@INPROCEEDINGS{mandelli2020training,
+  author={Mandelli, Sara and Bonettini, Nicolò and Bestagini, Paolo and Tubaro, Stefano},
+  booktitle={IEEE International Workshop on Information Forensics and Security (WIFS)}, 
+  title={Training {CNNs} in Presence of {JPEG} Compression: Multimedia Forensics vs Computer Vision}, 
+  year={2020},
+  doi={10.1109/WIFS49906.2020.9360903}}
+```
+
+
+
+
+
