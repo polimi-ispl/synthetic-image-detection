@@ -90,6 +90,9 @@ python test_fullysynth_vs_laundered_singleimg.py --img_path $PATH_TO_TEST_IMAGE 
 
 ## Performance
 We achieve AUC = 0.993 on [AI Forensics Open Research Challenge Evaluations (AI FORCE): Challenge 1, AI-Generated Image Detection](https://semanticforensics.com/ai-force/challenge-1) released by DARPA in May 2024. 
+<p align="center">
+<img src="assets/ROC_results_darpa.png" width="300"/>
+</p>
 
 ## How to cite
 
