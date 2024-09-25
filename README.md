@@ -1,6 +1,6 @@
 # Synthetic (and SD Laundered) Image Detection
 
-[**When Synthetic Traces Hide Real Content: Analysis of Stable Diffusion Image Laundering**](https://arxiv.org/pdf/2407.10736)
+[**When Synthetic Traces Hide Real Content: Analysis of Stable Diffusion Image Laundering**](https://arxiv.org/pdf/2407.10736), accepted to be presented at IEEE WIFS 2024
 
 Sara Mandelli, Paolo Bestagini, Stefano Tubaro<br/>
 [Image and Sound Processing Lab - Politecnico di Milano](http://ispl.deib.polimi.it/)
