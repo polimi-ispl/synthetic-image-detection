@@ -64,10 +64,9 @@ _We define an image to be synthetic if it is the result of a synthetic generatio
 
 ### Model's weights
 
-Download the model's weights from [this link](...) and unzip the file under the main folder
+Download the model's weights from [this link](https://www.dropbox.com/scl/fi/bzg6e6bgqmetfbokb2ve5/fully-synth_vs_laundered.pth?rlkey=443zd7j11jqavhgb381fiiknj&st=jqtfvk0u&dl=0) and save them into the main project folder:
 ```bash
-wget ...
-unzip laundered_vs_fullysynth_weigths.zip
+wget -O fully-synth_vs_laundered.pth "https://www.dropbox.com/scl/fi/bzg6e6bgqmetfbokb2ve5/fully-synth_vs_laundered.pth?rlkey=443zd7j11jqavhgb381fiiknj&st=jqtfvk0u&dl=1"
 ```
 
 ### Test the laundered vs fully-synthetic detector on a single image
