@@ -54,7 +54,7 @@ If the score is lower than 0, the image is likely real._
 python test_real_vs_synthetic_singleimg.py --img_path $PATH_TO_TEST_IMAGE --M 600
 ```
 
-### Synthetic vs Real Detection Performance
+### Synthetic vs Real Detection In The Wild
 We achieve AUC = 0.993 on [AI Forensics Open Research Challenge Evaluations (AI FORCE): Challenge 1, AI-Generated Image Detection](https://semanticforensics.com/ai-force/challenge-1) released by DARPA in May 2024. 
 <p align="center">
 <img src="assets/ROC_results_darpa.png" width="300"/>
